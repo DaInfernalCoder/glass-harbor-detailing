@@ -29,7 +29,7 @@ Launch a polished, phone-first mobile auto detailing website and Google Business
 
 ## Current state
 
-The domain is registered with high privacy and `autoRenew: false`. The validated static site is pushed to `https://github.com/DaInfernalCoder/glass-harbor-detailing` and connected to the Vercel project `glass-harbor-detailing`; its production deployment is `READY`. Apex and `www` are attached. Spaceship confirms custom delegation to `ns1.vercel-dns.com` and `ns2.vercel-dns.com`, but public resolvers still show the previous Spaceship nameservers while the registry change propagates. The final GMB pack is validated at `/Users/sumit/Documents/gmb/Glass Harbor Mobile Auto Detailing Houston Texas`.
+The domain is registered with high privacy and `autoRenew: false`. The validated static site is pushed to `https://github.com/DaInfernalCoder/glass-harbor-detailing` and connected to the Vercel project `glass-harbor-detailing`; its production deployment is `READY`. The header now uses an opaque, bordered, shadowed surface and passes initial-viewport desktop/mobile screenshot checks, including the open mobile menu. Apex and `www` are attached. Spaceship confirms custom delegation to `ns1.vercel-dns.com` and `ns2.vercel-dns.com`, but public resolvers still show the previous Spaceship nameservers while the registry change propagates. The final GMB pack is validated at `/Users/sumit/Documents/gmb/Glass Harbor Mobile Auto Detailing Houston Texas`.
 
 ## Acceptance criteria
 
