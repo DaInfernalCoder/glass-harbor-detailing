@@ -29,7 +29,7 @@ Launch a polished, phone-first mobile auto detailing website and Google Business
 
 ## Current state
 
-The domain registration completed successfully through Spaceship's asynchronous API. The final record confirms high privacy protection and `autoRenew: false`. The static phone-first website is built in the permanent project folder. Local preflight passes, desktop/mobile browser QA shows no broken images, console errors, overflow, or menu defects, and all call links use the confirmed number.
+The domain is registered with high privacy and `autoRenew: false`. The validated static site is pushed to `https://github.com/DaInfernalCoder/glass-harbor-detailing` and connected to the Vercel project `glass-harbor-detailing`; its production deployment is `READY`. Apex and `www` are attached. Spaceship confirms custom delegation to `ns1.vercel-dns.com` and `ns2.vercel-dns.com`, but public resolvers still show the previous Spaceship nameservers while the registry change propagates. The final GMB pack is validated at `/Users/sumit/Documents/gmb/Glass Harbor Mobile Auto Detailing Houston Texas`.
 
 ## Acceptance criteria
 
@@ -53,12 +53,12 @@ The domain registration completed successfully through Spaceship's asynchronous 
 - [x] Define and critique the Glass Harbor design direction.
 - [x] Build the static website with local licensed imagery.
 - [x] Run preflight and browser QA at desktop and phone widths.
-- [ ] Initialize git, commit, create GitHub repository, and push `main`.
-- [ ] Deploy through Vercel and connect the GitHub repository.
-- [ ] Attach apex and `www` and delegate DNS to Vercel.
+- [x] Initialize git, commit, create GitHub repository, and push `main`.
+- [x] Deploy through Vercel and connect the GitHub repository.
+- [x] Attach apex and `www` and delegate DNS to Vercel.
 - [ ] Verify authoritative DNS, HTTPS, production content, and call links.
-- [ ] Create and validate the final GMB description and image pack.
+- [x] Create and validate the final GMB description and image pack.
 
 ## Exact next action
 
-Initialize the dedicated git repository, commit and push `main`, deploy through Vercel, attach apex and `www`, then configure Spaceship DNS and verify the real HTTPS domain.
+Poll authoritative DNS until the Vercel nameservers are public. Re-run Vercel verification for apex and `www`, then run the live checker against both HTTPS hostnames and confirm the brand text and `tel:+17373374419` links.
