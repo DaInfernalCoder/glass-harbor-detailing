@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Glass Harbor</title>
+  <desc id="desc">A geometric harbor light reflected across a glass pane</desc>
+  <defs>
+    <linearGradient id="pane" x1="18" y1="16" x2="102" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#75D9E8"/>
+      <stop offset="1" stop-color="#116C8C"/>
+    </linearGradient>
+  </defs>
+  <path fill="#0B202B" d="M12 12h96v96H12z"/>
+  <path fill="none" stroke="url(#pane)" stroke-width="6" d="M31 28h58l10 15v49H21V43l10-15Z"/>
+  <path fill="#F4F9FA" d="M36 48h9v27h30v-9H57v-9h27v27H36V48Z"/>
+  <path fill="#F06551" d="M81 28h8l10 15v9L81 28Z"/>
+  <path stroke="#75D9E8" stroke-width="4" d="M24 96h72"/>
+</svg>
