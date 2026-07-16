@@ -56,9 +56,22 @@ The domain is registered with high privacy and `autoRenew: false`. The validated
 - [x] Initialize git, commit, create GitHub repository, and push `main`.
 - [x] Deploy through Vercel and connect the GitHub repository.
 - [x] Attach apex and `www` and delegate DNS to Vercel.
-- [ ] Verify authoritative DNS, HTTPS, production content, and call links.
+- [x] Verify authoritative DNS, HTTPS, production content, and call links.
 - [x] Create and validate the final GMB description and image pack.
 
 ## Exact next action
 
-Poll authoritative DNS until the Vercel nameservers are public. Re-run Vercel verification for apex and `www`, then run the live checker against both HTTPS hostnames and confirm the brand text and `tel:+17373374419` links.
+None. Launch is complete.
+
+## Operating record
+
+Verified live on 2026-07-16. DNS propagation finished: public resolvers return
+`ns1.vercel-dns.com` / `ns2.vercel-dns.com`. Both `glassharbordetailing.shop` and
+`www.glassharbordetailing.shop` return HTTP 200 over HTTPS and pass `check_live.py`.
+
+To update the site: edit and push to `main` on
+https://github.com/DaInfernalCoder/glass-harbor-detailing — Vercel auto-deploys.
+
+Note: the Vercel account has SSO deployment protection enabled, so the raw
+`*.vercel.app` deployment URLs return a 302 to Vercel SSO. This is expected and does not
+affect the custom domain, which serves publicly.
