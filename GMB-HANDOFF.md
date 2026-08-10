@@ -9,6 +9,8 @@ Launch a polished, phone-first mobile auto detailing website and Google Business
 - Canonical name: Glass Harbor Mobile Auto Detailing Houston Texas
 - Business type: mobile auto detailing
 - Primary market: Houston, Texas
+- Public phone: +1 737-337-4419
+- Street address: 710 Fairview St, Houston, TX 77006
 - Phone: 737-337-4419
 - Primary conversion: phone calls
 - Proposed domain: `glassharbordetailing.shop`
