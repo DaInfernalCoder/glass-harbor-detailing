@@ -1,0 +1,37 @@
+{
+  "config": {},
+  "domains": [
+    {
+      "name": "www.glassharbordetailing.shop",
+      "apexName": "glassharbordetailing.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    },
+    {
+      "name": "glassharbordetailing.shop",
+      "apexName": "glassharbordetailing.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/about/index.html",
+    "/assets/detail-foam.jpg",
+    "/assets/detail-interior.jpg",
+    "/assets/favicon.svg",
+    "/assets/hero-wash.jpg",
+    "/assets/logo.svg",
+    "/assets/service-handwash.jpg",
+    "/contact/index.html",
+    "/index.html",
+    "/llms.txt",
+    "/robots.txt",
+    "/script.js",
+    "/seo-pages.css",
+    "/services/index.html",
+    "/sitemap.xml",
+    "/styles.css"
+  ]
+}
