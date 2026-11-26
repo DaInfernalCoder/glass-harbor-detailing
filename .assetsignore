@@ -11,3 +11,4 @@ node_modules
 /.gitignore
 /GMB-HANDOFF.md
 /scripts/preflight_site.py
+.github
